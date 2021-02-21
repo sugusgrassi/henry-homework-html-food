@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://www.mulberrypaperandmore.com/images/product/medium/4227.jpg");
+    background-repeat: repeat; 
+    font-family: 'Montserrat', sans-serif;
+  }
+
+h1 {
+    color: antiquewhite;
+    font-family: 'Stick', sans-serif;
+    margin-right: 30px;
+}
+
+h3, h4 {
+    color: red;
+}
+
+img {
+    width: 100%;
+}
+
+#idTitulos {
+    background-color: black;
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.divClass{
+    background-color: antiquewhite;
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#thirdDiv {
+    height: auto;
+    max-width: 960px;
+    background-color: antiquewhite; 
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#spanId {
+    font-size: 18px;
+}
+
+.destacado {
+    font-weight: 700;
+}
+
+a{
+    color: red
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+li {
+  padding-left: 0px;
+}
+
+li:before{
+    content: "🍱";
+    padding-right: 5px;
+}
